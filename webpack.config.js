@@ -1,7 +1,7 @@
 module.exports =  {
-    entry : "./main.js",
+    entry : "./src/main.js",
     output : {
-        filename : "app.js"
+        filename : "./dist/app.js"
     },
     module: {
         loaders: [
@@ -15,7 +15,7 @@ module.exports =  {
             },
             {
                 test: /\.scss$/,
-                loaders: ["style", "css", "sass"]
+                loaders: ["style-loader", "css-loader", "sass-loader"]
             }
         ]
     }

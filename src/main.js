@@ -1,5 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './src/App/App.jsx';
+import App from './composant/App/App.jsx';
 
-ReactDOM.render(<App nom="toto le magicien" />, document.getElementById("app"));
+ReactDOM.render(<App />, document.getElementById("app"));
